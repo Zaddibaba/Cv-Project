@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: #eee;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header{
+
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid red;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.header-contact{
+    float:right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+     color: teal;
+     font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+    transition: 0.5s;
+}
+
+.div-clear{
+     clear: both;
+}
+
+
+hr{
+    border: 3px solid #111;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 100%;
+}
+
+/*----------------------
+Personal-Information
+-----------------------*/
+#personal-section{
+
+}
+
+.content{
+   margin-bottom: 30px;
+}
+
+.left-dev{
+  width: 30%;
+  float: left;
+}
+
+.right-dev{
+  width: 70%;
+  float: left;
+  text-align: justify;
+}
+
+.common-hr{
+    border: 1px solid #111;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+/*-------------------------
+ Education-Secation-Start
+--------------------------*/
+
+.education-tempet-left{
+   float: left;
+   width: 45%;
+}
+
+.education-tempet-right{
+    float: right;
+    width: 45%;
+}
+
+/*-------------------------
+ Footer - Start
+--------------------------*/
+
+.bottom-continer{
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-continer a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-continer p{
+    color: #fff;
+    margin-top: 20px;
+}
